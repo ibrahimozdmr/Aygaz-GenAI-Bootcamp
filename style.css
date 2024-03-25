@@ -92,6 +92,12 @@ nav a {
     overflow: hidden;
 }
 
+.resim object {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Resmi kutuya sığdırır ve kırpar */
+}
+
 .foto {
     width: 100%;
     height: 100%;
@@ -124,6 +130,7 @@ nav a {
 .proje .foto {
     width: 100%;
     height: 150px;
+    object-fit: cover;
     background-color: red; /* Fotoğrafın yerini göstermek için */
     margin-bottom: 1rem;
 }
