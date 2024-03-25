@@ -1,0 +1,1 @@
+// Şu anda bu site için JavaScript kodu gerekmiyor.
